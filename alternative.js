@@ -864,6 +864,18 @@ transition: 500ms;
     border-radius: 15px;
     background: rgb(0 25 38 / 50%);
 }
+.HeaderComponentStyle-messageBody {
+    color: #bbbbbb;
+}
+.HeaderComponentStyle-messageTitle {
+    color: white;
+}
+.HeaderComponentStyle-messageContainer {
+    backdrop-filter: blur(10px) !important;
+    background-color: rgb(0 25 38 / 50%) !important;
+    border-radius: 15px !important;
+    border: 1px solid rgb(255 255 255 / 55%) !important;
+}
 `;
 const body = document.body || document.getElementsByTagName('body')[0],
     style = document.createElement('style');
